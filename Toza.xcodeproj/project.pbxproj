@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A437C202E275E9DC890E780 /* Pods_Toza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B77391C0A46783A310978B8 /* Pods_Toza.framework */; };
+		C4023ED61DD27A5D004A77BE /* MainTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4023ED51DD27A5D004A77BE /* MainTableHeaderView.swift */; };
+		C4023ED81DD27A90004A77BE /* MainTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4023ED71DD27A90004A77BE /* MainTableHeaderView.xib */; };
+		C4023EDB1DD2952C004A77BE /* TozaNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4023EDA1DD2952C004A77BE /* TozaNavigationBar.swift */; };
+		C41BE37F1DFB72FD00ECEE26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41BE37E1DFB72FD00ECEE26 /* CoreLocation.framework */; };
+		C426E8091DD51AA700E48CE4 /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C426E8081DD51AA700E48CE4 /* AccountHeaderView.swift */; };
+		C426E80B1DD51ABD00E48CE4 /* AccountHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C426E80A1DD51ABD00E48CE4 /* AccountHeaderView.xib */; };
+		C426E80E1DD52A8300E48CE4 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C426E80D1DD52A8300E48CE4 /* EventTableViewController.swift */; };
+		C43DEDBE1DE1064C0099E0C8 /* EventBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DEDBC1DE1064C0099E0C8 /* EventBodyTableViewCell.swift */; };
+		C43DEDBF1DE1064C0099E0C8 /* EventBodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43DEDBD1DE1064C0099E0C8 /* EventBodyTableViewCell.xib */; };
+		C44287E01DD11151004336CE /* UserAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44287DE1DD11151004336CE /* UserAccountTableViewCell.swift */; };
+		C44287E11DD11151004336CE /* UserAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44287DF1DD11151004336CE /* UserAccountTableViewCell.xib */; };
+		C44287E41DD11DA4004336CE /* EarningSpendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44287E21DD11DA4004336CE /* EarningSpendingTableViewCell.swift */; };
+		C44287E51DD11DA4004336CE /* EarningSpendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44287E31DD11DA4004336CE /* EarningSpendingTableViewCell.xib */; };
+		C465A0731DCBDE3600EF4431 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465A0721DCBDE3600EF4431 /* MapViewController.swift */; };
+		C47B8C571DDFE29300BAFCD3 /* AvailabilityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47B8C561DDFE29300BAFCD3 /* AvailabilityHeaderView.swift */; };
+		C47B8C591DDFE2BA00BAFCD3 /* AvailabilityHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47B8C581DDFE2BA00BAFCD3 /* AvailabilityHeaderView.xib */; };
+		C47B8C5C1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47B8C5A1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.swift */; };
+		C47B8C5D1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47B8C5B1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.xib */; };
+		C47B8C601DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47B8C5E1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.swift */; };
+		C47B8C611DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47B8C5F1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.xib */; };
+		C48491501EE4480D003D7867 /* EdgeShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484914F1EE4480D003D7867 /* EdgeShadow.swift */; };
+		C4A2E9F61DC2BFEA001F164F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2E9F51DC2BFEA001F164F /* AppDelegate.swift */; };
+		C4A2E9F81DC2BFEA001F164F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2E9F71DC2BFEA001F164F /* LoginViewController.swift */; };
+		C4A2E9FB1DC2BFEA001F164F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2E9F91DC2BFEA001F164F /* Main.storyboard */; };
+		C4A2E9FD1DC2BFEA001F164F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A2E9FC1DC2BFEA001F164F /* Assets.xcassets */; };
+		C4A2EA0B1DC2BFEA001F164F /* TozaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2EA0A1DC2BFEA001F164F /* TozaTests.swift */; };
+		C4A2EA161DC2BFEA001F164F /* TozaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2EA151DC2BFEA001F164F /* TozaUITests.swift */; };
+		C4AC478C1DEE1835007072F4 /* HostEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC478B1DEE1835007072F4 /* HostEventTableViewController.swift */; };
+		C4ACA4DB1DCB815500CF37C0 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACA4DA1DCB815500CF37C0 /* AccountTableViewController.swift */; };
+		C4ACA4E01DCBC48B00CF37C0 /* SendBackAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ACA4DF1DCBC48B00CF37C0 /* SendBackAnimationController.swift */; };
+		C4C1775D1DCA26C8007E9CC9 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C1775B1DCA26C7007E9CC9 /* EventTableViewCell.swift */; };
+		C4C1775E1DCA26C8007E9CC9 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C1775C1DCA26C7007E9CC9 /* EventTableViewCell.xib */; };
+		C4D8FBF31DC4026300409B1B /* MainUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FBF21DC4026300409B1B /* MainUITableViewController.swift */; };
+		C4EEBC1F1DC5241C005FDA4B /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBC1E1DC5241C005FDA4B /* MenuTableViewController.swift */; };
+		C4EEBC251DC52AC0005FDA4B /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBC231DC52AC0005FDA4B /* MenuTableViewCell.swift */; };
+		C4EEBC261DC52AC0005FDA4B /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBC241DC52AC0005FDA4B /* MenuTableViewCell.xib */; };
+		C4F0C1721DCE229800274BBD /* SendFrontAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0C1711DCE229800274BBD /* SendFrontAnimationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4A2EA071DC2BFEA001F164F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A2E9EA1DC2BFE9001F164F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A2E9F11DC2BFE9001F164F;
+			remoteInfo = Toza;
+		};
+		C4A2EA121DC2BFEA001F164F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A2E9EA1DC2BFE9001F164F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A2E9F11DC2BFE9001F164F;
+			remoteInfo = Toza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B77391C0A46783A310978B8 /* Pods_Toza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93563161FB3D519EC39623F7 /* Pods-Toza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toza/Pods-Toza.release.xcconfig"; sourceTree = "<group>"; };
+		C4023ED41DD22566004A77BE /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		C4023ED51DD27A5D004A77BE /* MainTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableHeaderView.swift; sourceTree = "<group>"; };
+		C4023ED71DD27A90004A77BE /* MainTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableHeaderView.xib; sourceTree = "<group>"; };
+		C4023EDA1DD2952C004A77BE /* TozaNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TozaNavigationBar.swift; sourceTree = "<group>"; };
+		C41BE37E1DFB72FD00ECEE26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C426E8081DD51AA700E48CE4 /* AccountHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountHeaderView.swift; sourceTree = "<group>"; };
+		C426E80A1DD51ABD00E48CE4 /* AccountHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountHeaderView.xib; sourceTree = "<group>"; };
+		C426E80D1DD52A8300E48CE4 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		C43DEDBC1DE1064C0099E0C8 /* EventBodyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBodyTableViewCell.swift; sourceTree = "<group>"; };
+		C43DEDBD1DE1064C0099E0C8 /* EventBodyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventBodyTableViewCell.xib; sourceTree = "<group>"; };
+		C44287DE1DD11151004336CE /* UserAccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountTableViewCell.swift; sourceTree = "<group>"; };
+		C44287DF1DD11151004336CE /* UserAccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAccountTableViewCell.xib; sourceTree = "<group>"; };
+		C44287E21DD11DA4004336CE /* EarningSpendingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarningSpendingTableViewCell.swift; sourceTree = "<group>"; };
+		C44287E31DD11DA4004336CE /* EarningSpendingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EarningSpendingTableViewCell.xib; sourceTree = "<group>"; };
+		C44287E61DD12854004336CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C465A0721DCBDE3600EF4431 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C47B8C561DDFE29300BAFCD3 /* AvailabilityHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityHeaderView.swift; sourceTree = "<group>"; };
+		C47B8C581DDFE2BA00BAFCD3 /* AvailabilityHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvailabilityHeaderView.xib; sourceTree = "<group>"; };
+		C47B8C5A1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHeaderViewTableViewCell.swift; sourceTree = "<group>"; };
+		C47B8C5B1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventHeaderViewTableViewCell.xib; sourceTree = "<group>"; };
+		C47B8C5E1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailActionTableViewCell.swift; sourceTree = "<group>"; };
+		C47B8C5F1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailActionTableViewCell.xib; sourceTree = "<group>"; };
+		C484914F1EE4480D003D7867 /* EdgeShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeShadow.swift; sourceTree = "<group>"; };
+		C4A2E9F21DC2BFEA001F164F /* Toza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A2E9F51DC2BFEA001F164F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4A2E9F71DC2BFEA001F164F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4A2E9FA1DC2BFEA001F164F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A2E9FC1DC2BFEA001F164F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A2EA011DC2BFEA001F164F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A2EA061DC2BFEA001F164F /* TozaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TozaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A2EA0A1DC2BFEA001F164F /* TozaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaTests.swift; sourceTree = "<group>"; };
+		C4A2EA0C1DC2BFEA001F164F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A2EA111DC2BFEA001F164F /* TozaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TozaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A2EA151DC2BFEA001F164F /* TozaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TozaUITests.swift; sourceTree = "<group>"; };
+		C4A2EA171DC2BFEA001F164F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AC478B1DEE1835007072F4 /* HostEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostEventTableViewController.swift; sourceTree = "<group>"; };
+		C4ACA4DA1DCB815500CF37C0 /* AccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		C4ACA4DF1DCBC48B00CF37C0 /* SendBackAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendBackAnimationController.swift; sourceTree = "<group>"; };
+		C4C1775B1DCA26C7007E9CC9 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		C4C1775C1DCA26C7007E9CC9 /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		C4D8FBF21DC4026300409B1B /* MainUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUITableViewController.swift; sourceTree = "<group>"; };
+		C4EA054E1DC420C0003A67C6 /* Toza-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toza-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4EEBC1E1DC5241C005FDA4B /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C4EEBC231DC52AC0005FDA4B /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C4EEBC241DC52AC0005FDA4B /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		C4F0C1711DCE229800274BBD /* SendFrontAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendFrontAnimationController.swift; sourceTree = "<group>"; };
+		D70392B64C2CDF46D5A9141B /* Pods-Toza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toza/Pods-Toza.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A2E9EF1DC2BFE9001F164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41BE37F1DFB72FD00ECEE26 /* CoreLocation.framework in Frameworks */,
+				3A437C202E275E9DC890E780 /* Pods_Toza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA031DC2BFEA001F164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA0E1DC2BFEA001F164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C7E64B8452C53FF649D737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41BE37E1DFB72FD00ECEE26 /* CoreLocation.framework */,
+				C44287E61DD12854004336CE /* MapKit.framework */,
+				7B77391C0A46783A310978B8 /* Pods_Toza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77BF22701325E0093D8A02C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D70392B64C2CDF46D5A9141B /* Pods-Toza.debug.xcconfig */,
+				93563161FB3D519EC39623F7 /* Pods-Toza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4023ED21DD21BA6004A77BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4023ED41DD22566004A77BE /* FontAwesome.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C4023ED91DD294F6004A77BE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C4023EDA1DD2952C004A77BE /* TozaNavigationBar.swift */,
+				C484914F1EE4480D003D7867 /* EdgeShadow.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		C426E80F1DD530B300E48CE4 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				C4C1775B1DCA26C7007E9CC9 /* EventTableViewCell.swift */,
+				C4C1775C1DCA26C7007E9CC9 /* EventTableViewCell.xib */,
+				C426E80D1DD52A8300E48CE4 /* EventTableViewController.swift */,
+				C47B8C561DDFE29300BAFCD3 /* AvailabilityHeaderView.swift */,
+				C47B8C581DDFE2BA00BAFCD3 /* AvailabilityHeaderView.xib */,
+				C47B8C5A1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.swift */,
+				C47B8C5B1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.xib */,
+				C47B8C5E1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.swift */,
+				C47B8C5F1DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.xib */,
+				C43DEDBC1DE1064C0099E0C8 /* EventBodyTableViewCell.swift */,
+				C43DEDBD1DE1064C0099E0C8 /* EventBodyTableViewCell.xib */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		C426E8101DD55B2800E48CE4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C465A0721DCBDE3600EF4431 /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		C4A2E9E91DC2BFE9001F164F = {
+			isa = PBXGroup;
+			children = (
+				C4A2E9F41DC2BFEA001F164F /* Toza */,
+				C4A2EA091DC2BFEA001F164F /* TozaTests */,
+				C4A2EA141DC2BFEA001F164F /* TozaUITests */,
+				C4A2E9F31DC2BFEA001F164F /* Products */,
+				77BF22701325E0093D8A02C0 /* Pods */,
+				29C7E64B8452C53FF649D737 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A2E9F31DC2BFEA001F164F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2E9F21DC2BFEA001F164F /* Toza.app */,
+				C4A2EA061DC2BFEA001F164F /* TozaTests.xctest */,
+				C4A2EA111DC2BFEA001F164F /* TozaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A2E9F41DC2BFEA001F164F /* Toza */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC47821DEE0D61007072F4 /* Host */,
+				C426E8101DD55B2800E48CE4 /* Map */,
+				C426E80F1DD530B300E48CE4 /* Event */,
+				C4C1775A1DCA269D007E9CC9 /* Includes */,
+				C4EEBC211DC52489005FDA4B /* Main */,
+				C4ACA4D41DCB80DE00CF37C0 /* Account */,
+				C4A2E9F51DC2BFEA001F164F /* AppDelegate.swift */,
+				C4A2E9F91DC2BFEA001F164F /* Main.storyboard */,
+				C4A2E9FC1DC2BFEA001F164F /* Assets.xcassets */,
+				C4A2EA011DC2BFEA001F164F /* Info.plist */,
+				C4D8FBF51DC4159B00409B1B /* Support */,
+			);
+			path = Toza;
+			sourceTree = "<group>";
+		};
+		C4A2EA091DC2BFEA001F164F /* TozaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2EA0A1DC2BFEA001F164F /* TozaTests.swift */,
+				C4A2EA0C1DC2BFEA001F164F /* Info.plist */,
+			);
+			path = TozaTests;
+			sourceTree = "<group>";
+		};
+		C4A2EA141DC2BFEA001F164F /* TozaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2EA151DC2BFEA001F164F /* TozaUITests.swift */,
+				C4A2EA171DC2BFEA001F164F /* Info.plist */,
+			);
+			path = TozaUITests;
+			sourceTree = "<group>";
+		};
+		C4AC47821DEE0D61007072F4 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC478B1DEE1835007072F4 /* HostEventTableViewController.swift */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		C4ACA4D41DCB80DE00CF37C0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C4ACA4DA1DCB815500CF37C0 /* AccountTableViewController.swift */,
+				C44287DE1DD11151004336CE /* UserAccountTableViewCell.swift */,
+				C44287DF1DD11151004336CE /* UserAccountTableViewCell.xib */,
+				C44287E21DD11DA4004336CE /* EarningSpendingTableViewCell.swift */,
+				C44287E31DD11DA4004336CE /* EarningSpendingTableViewCell.xib */,
+				C426E8081DD51AA700E48CE4 /* AccountHeaderView.swift */,
+				C426E80A1DD51ABD00E48CE4 /* AccountHeaderView.xib */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		C4ACA4DE1DCBC44400CF37C0 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				C4ACA4DF1DCBC48B00CF37C0 /* SendBackAnimationController.swift */,
+				C4F0C1711DCE229800274BBD /* SendFrontAnimationController.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		C4C1775A1DCA269D007E9CC9 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEBC201DC52469005FDA4B /* Menu */,
+				C4EEBC221DC52498005FDA4B /* Initiation */,
+				C4023ED91DD294F6004A77BE /* Class */,
+				C4023ED21DD21BA6004A77BE /* Fonts */,
+				C4ACA4DE1DCBC44400CF37C0 /* Transitions */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		C4D8FBF51DC4159B00409B1B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA054E1DC420C0003A67C6 /* Toza-Bridging-Header.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C4EEBC201DC52469005FDA4B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEBC231DC52AC0005FDA4B /* MenuTableViewCell.swift */,
+				C4EEBC241DC52AC0005FDA4B /* MenuTableViewCell.xib */,
+				C4EEBC1E1DC5241C005FDA4B /* MenuTableViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C4EEBC211DC52489005FDA4B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8FBF21DC4026300409B1B /* MainUITableViewController.swift */,
+				C4023ED51DD27A5D004A77BE /* MainTableHeaderView.swift */,
+				C4023ED71DD27A90004A77BE /* MainTableHeaderView.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C4EEBC221DC52498005FDA4B /* Initiation */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2E9F71DC2BFEA001F164F /* LoginViewController.swift */,
+			);
+			name = Initiation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A2E9F11DC2BFE9001F164F /* Toza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A2EA1A1DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "Toza" */;
+			buildPhases = (
+				D64C1DBC17872A1C81522EA0 /* [CP] Check Pods Manifest.lock */,
+				C4A2E9EE1DC2BFE9001F164F /* Sources */,
+				C4A2E9EF1DC2BFE9001F164F /* Frameworks */,
+				C4A2E9F01DC2BFE9001F164F /* Resources */,
+				0123AC7892FB6B40B8ADAB6B /* [CP] Embed Pods Frameworks */,
+				92FAF01002DDB65B56BB7898 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toza;
+			productName = Toza;
+			productReference = C4A2E9F21DC2BFEA001F164F /* Toza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4A2EA051DC2BFEA001F164F /* TozaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A2EA1D1DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "TozaTests" */;
+			buildPhases = (
+				C4A2EA021DC2BFEA001F164F /* Sources */,
+				C4A2EA031DC2BFEA001F164F /* Frameworks */,
+				C4A2EA041DC2BFEA001F164F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A2EA081DC2BFEA001F164F /* PBXTargetDependency */,
+			);
+			name = TozaTests;
+			productName = TozaTests;
+			productReference = C4A2EA061DC2BFEA001F164F /* TozaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4A2EA101DC2BFEA001F164F /* TozaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A2EA201DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "TozaUITests" */;
+			buildPhases = (
+				C4A2EA0D1DC2BFEA001F164F /* Sources */,
+				C4A2EA0E1DC2BFEA001F164F /* Frameworks */,
+				C4A2EA0F1DC2BFEA001F164F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A2EA131DC2BFEA001F164F /* PBXTargetDependency */,
+			);
+			name = TozaUITests;
+			productName = TozaUITests;
+			productReference = C4A2EA111DC2BFEA001F164F /* TozaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A2E9EA1DC2BFE9001F164F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Toza, Inc.";
+				TargetAttributes = {
+					C4A2E9F11DC2BFE9001F164F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XZ5V4S47RE;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					C4A2EA051DC2BFEA001F164F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4A2E9F11DC2BFE9001F164F;
+					};
+					C4A2EA101DC2BFEA001F164F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4A2E9F11DC2BFE9001F164F;
+					};
+				};
+			};
+			buildConfigurationList = C4A2E9ED1DC2BFE9001F164F /* Build configuration list for PBXProject "Toza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A2E9E91DC2BFE9001F164F;
+			productRefGroup = C4A2E9F31DC2BFEA001F164F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A2E9F11DC2BFE9001F164F /* Toza */,
+				C4A2EA051DC2BFEA001F164F /* TozaTests */,
+				C4A2EA101DC2BFEA001F164F /* TozaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A2E9F01DC2BFE9001F164F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B8C5D1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.xib in Resources */,
+				C47B8C591DDFE2BA00BAFCD3 /* AvailabilityHeaderView.xib in Resources */,
+				C4023ED81DD27A90004A77BE /* MainTableHeaderView.xib in Resources */,
+				C47B8C611DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.xib in Resources */,
+				C4C1775E1DCA26C8007E9CC9 /* EventTableViewCell.xib in Resources */,
+				C426E80B1DD51ABD00E48CE4 /* AccountHeaderView.xib in Resources */,
+				C43DEDBF1DE1064C0099E0C8 /* EventBodyTableViewCell.xib in Resources */,
+				C4EEBC261DC52AC0005FDA4B /* MenuTableViewCell.xib in Resources */,
+				C4A2E9FD1DC2BFEA001F164F /* Assets.xcassets in Resources */,
+				C44287E51DD11DA4004336CE /* EarningSpendingTableViewCell.xib in Resources */,
+				C44287E11DD11151004336CE /* UserAccountTableViewCell.xib in Resources */,
+				C4A2E9FB1DC2BFEA001F164F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA041DC2BFEA001F164F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA0F1DC2BFEA001F164F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0123AC7892FB6B40B8ADAB6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toza/Pods-Toza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92FAF01002DDB65B56BB7898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toza/Pods-Toza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64C1DBC17872A1C81522EA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A2E9EE1DC2BFE9001F164F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A2E9F81DC2BFEA001F164F /* LoginViewController.swift in Sources */,
+				C47B8C5C1DDFE4E200BAFCD3 /* EventHeaderViewTableViewCell.swift in Sources */,
+				C48491501EE4480D003D7867 /* EdgeShadow.swift in Sources */,
+				C4EEBC251DC52AC0005FDA4B /* MenuTableViewCell.swift in Sources */,
+				C426E80E1DD52A8300E48CE4 /* EventTableViewController.swift in Sources */,
+				C4A2E9F61DC2BFEA001F164F /* AppDelegate.swift in Sources */,
+				C4AC478C1DEE1835007072F4 /* HostEventTableViewController.swift in Sources */,
+				C426E8091DD51AA700E48CE4 /* AccountHeaderView.swift in Sources */,
+				C4F0C1721DCE229800274BBD /* SendFrontAnimationController.swift in Sources */,
+				C4023EDB1DD2952C004A77BE /* TozaNavigationBar.swift in Sources */,
+				C44287E01DD11151004336CE /* UserAccountTableViewCell.swift in Sources */,
+				C47B8C571DDFE29300BAFCD3 /* AvailabilityHeaderView.swift in Sources */,
+				C4023ED61DD27A5D004A77BE /* MainTableHeaderView.swift in Sources */,
+				C4EEBC1F1DC5241C005FDA4B /* MenuTableViewController.swift in Sources */,
+				C465A0731DCBDE3600EF4431 /* MapViewController.swift in Sources */,
+				C44287E41DD11DA4004336CE /* EarningSpendingTableViewCell.swift in Sources */,
+				C43DEDBE1DE1064C0099E0C8 /* EventBodyTableViewCell.swift in Sources */,
+				C4C1775D1DCA26C8007E9CC9 /* EventTableViewCell.swift in Sources */,
+				C4D8FBF31DC4026300409B1B /* MainUITableViewController.swift in Sources */,
+				C4ACA4E01DCBC48B00CF37C0 /* SendBackAnimationController.swift in Sources */,
+				C4ACA4DB1DCB815500CF37C0 /* AccountTableViewController.swift in Sources */,
+				C47B8C601DDFE9C000BAFCD3 /* EventDetailActionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA021DC2BFEA001F164F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A2EA0B1DC2BFEA001F164F /* TozaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A2EA0D1DC2BFEA001F164F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A2EA161DC2BFEA001F164F /* TozaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4A2EA081DC2BFEA001F164F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A2E9F11DC2BFE9001F164F /* Toza */;
+			targetProxy = C4A2EA071DC2BFEA001F164F /* PBXContainerItemProxy */;
+		};
+		C4A2EA131DC2BFEA001F164F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A2E9F11DC2BFE9001F164F /* Toza */;
+			targetProxy = C4A2EA121DC2BFEA001F164F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4A2E9F91DC2BFEA001F164F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A2E9FA1DC2BFEA001F164F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A2EA181DC2BFEA001F164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4A2EA191DC2BFEA001F164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A2EA1B1DC2BFEA001F164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70392B64C2CDF46D5A9141B /* Pods-Toza.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XZ5V4S47RE;
+				INFOPLIST_FILE = Toza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.Toza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Toza/Toza-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4A2EA1C1DC2BFEA001F164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93563161FB3D519EC39623F7 /* Pods-Toza.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XZ5V4S47RE;
+				INFOPLIST_FILE = Toza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.Toza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Toza/Toza-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4A2EA1E1DC2BFEA001F164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TozaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.TozaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toza.app/Toza";
+			};
+			name = Debug;
+		};
+		C4A2EA1F1DC2BFEA001F164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TozaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.TozaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toza.app/Toza";
+			};
+			name = Release;
+		};
+		C4A2EA211DC2BFEA001F164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TozaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.TozaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Toza;
+			};
+			name = Debug;
+		};
+		C4A2EA221DC2BFEA001F164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TozaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toza.TozaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Toza;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A2E9ED1DC2BFE9001F164F /* Build configuration list for PBXProject "Toza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EA181DC2BFEA001F164F /* Debug */,
+				C4A2EA191DC2BFEA001F164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2EA1A1DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "Toza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EA1B1DC2BFEA001F164F /* Debug */,
+				C4A2EA1C1DC2BFEA001F164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2EA1D1DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "TozaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EA1E1DC2BFEA001F164F /* Debug */,
+				C4A2EA1F1DC2BFEA001F164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2EA201DC2BFEA001F164F /* Build configuration list for PBXNativeTarget "TozaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A2EA211DC2BFEA001F164F /* Debug */,
+				C4A2EA221DC2BFEA001F164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4A2E9EA1DC2BFE9001F164F /* Project object */;
+}

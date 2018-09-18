@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.4.0)
+  - FontAwesome.swift (1.2.0)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.3.0):
+    - GoogleMaps/Base (= 2.3.0)
+  - JTHamburgerButton (1.0.5)
+  - PhoneNumberKit (1.2.3):
+    - PhoneNumberKit/PhoneNumberKitCore (= 1.2.3)
+    - PhoneNumberKit/UIKit (= 1.2.3)
+  - PhoneNumberKit/PhoneNumberKitCore (1.2.3)
+  - PhoneNumberKit/UIKit (1.2.3):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SWRevealViewController (2.3.0)
+  - TextFieldEffects (1.3.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FontAwesome.swift
+  - GoogleMaps
+  - GooglePlaces
+  - JTHamburgerButton (~> 1.0)
+  - PhoneNumberKit (~> 1.0)
+  - SWRevealViewController (~> 2.3.0)
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FontAwesome.swift: 60063e3f19ba4801155d4b0f2334ab7585763ab3
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  GooglePlaces: 74d322c74184ea4576184089b496d291cf0dcd38
+  JTHamburgerButton: 9a41c7d051c72590a9d2c18416d84d1b912f12e3
+  PhoneNumberKit: 1e5cca669113fc361a8c82ec1ee559c62b8cd0f7
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
+
+PODFILE CHECKSUM: 1955a23d90cbfd77152023f03a840099bc8bc62d
+
+COCOAPODS: 1.1.1

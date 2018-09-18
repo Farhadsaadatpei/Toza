@@ -1,0 +1,13 @@
+platform :ios, '9.1'
+use_frameworks!
+
+target 'Toza' do
+  pod 'FontAwesome.swift'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'SWRevealViewController', '~> 2.3.0'
+  pod 'Alamofire', '~> 4.0'
+  pod 'JTHamburgerButton', '~> 1.0'
+  pod "TextFieldEffects"
+  pod 'PhoneNumberKit', '~> 1.0'
+end
